@@ -17,6 +17,15 @@ Estructura recomendada
 
 - `patterns/` — contiene carpetas por categoría y patrón. Cada patrón debe incluir un `README.md` explicando el uso y un archivo de demostración (playground o swift file).
 
+Orden recomendado de estudio
+
+1. Builder
+2. Factory Method
+3. Abstract Factory
+4. Singleton
+
+Siguiendo este orden se entiende mejor la evolución de los patrones creacionales.
+
 Buenas prácticas
 
 - Añade tests o pequeños snippets que demuestren el uso del patrón.

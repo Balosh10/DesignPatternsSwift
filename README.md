@@ -23,6 +23,7 @@ Patrones que controlan cómo se crean los objetos.
 - Builder ✅ (implementado)
 - Factory Method
 - Abstract Factory
+- Prototype
 - Singleton
 
 ---
@@ -35,50 +36,72 @@ Patrones que definen cómo se estructuran los objetos y clases.
 - Facade
 - Composite
 - Bridge
+- Proxy
+- Template Method
 
 ---
 
 ## 🟢 Comportamiento (interacción entre objetos)
 Patrones que definen cómo se comunican los objetos.
 
+- Strategy
+- Observer
+- Delegate (muy usado en iOS)
+- Command
+- State
+- Chain of Responsibility
+- Mediator
+- Iterator
+- Visitor
+- Memento
+- Interpreter
+
 ---
 
 # 🧾 Teoría breve por categoría
 
-- **Creacionales:** se centran en encapsular la lógica de creación de objetos para separar esa responsabilidad del resto del código. Ayudan a crear sistemas más flexibles y a soportar variaciones en la creación (por ejemplo, `Factory Method`, `Abstract Factory`, `Builder`, `Singleton`).
+- **Creacionales:** se centran en encapsular la lógica de creación de objetos para separar esa responsabilidad del resto del código. Ayudan a crear sistemas más flexibles y a soportar variaciones en la creación (por ejemplo, `Builder`, `Factory Method`, `Abstract Factory`, `Prototype`, `Singleton`).
 
-- **Estructurales:** se ocupan de cómo se componen clases y objetos para formar estructuras más grandes, facilitando la reutilización y la reducción de complejidad (por ejemplo, `Adapter`, `Facade`, `Decorator`, `Composite`, `Bridge`).
+- **Estructurales:** se ocupan de cómo se componen clases y objetos para formar estructuras más grandes, facilitando la reutilización y la reducción de complejidad (por ejemplo, `Adapter`, `Facade`, `Decorator`, `Proxy`, `Composite`, `Bridge`).
 
 - **Comportamiento:** describen patrones de comunicación y responsabilidades entre objetos, definiendo algoritmos y flujos de control (por ejemplo, `Observer`, `Strategy`, `Command`, `State`, `Delegate`).
 
 ---
 
-- Observer
-- Strategy
-- Delegate (muy usado en iOS)
-- Command
-- State
-
----
-
 # 🚀 Orden recomendado de aprendizaje
 
-Para entenderlos de forma progresiva:
+Para este proyecto, una ruta de estudio muy sólida para desarrollo iOS profesional es la siguiente:
 
-### 🥇 Nivel 1 (fundamentos)
-- Builder
-- Factory Method
-- Singleton
+## Creacionales
+1. Builder
+2. Factory Method
+3. Abstract Factory
+4. Prototype
+5. Singleton
 
-### 🥈 Nivel 2 (muy usados en iOS real)
-- Delegate
-- Observer
-- Strategy
+## Estructurales
+6. Adapter
+7. Decorator
+8. Facade
+9. Proxy
+10. Composite
+11. Bridge
+12. Template Method
 
-### 🥉 Nivel 3 (arquitectura avanzada)
-- Adapter
-- Facade
-- Decorator
+## Comportamiento
+13. Strategy
+14. Observer
+15. Command
+16. State
+17. Delegate
+18. Chain of Responsibility
+19. Mediator
+20. Iterator
+21. Visitor
+22. Memento
+23. Interpreter
+
+Esta ruta permite pasar de la creación de objetos a la arquitectura de componentes y al diseño de sistemas más mantenibles.
 
 ---
 
