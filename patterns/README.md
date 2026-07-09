@@ -10,9 +10,9 @@ Estructura
 
 Patrones incluidos
 
-- Creacionales: Builder, Factory Method, Abstract Factory, Singleton
-- Estructurales: Adapter, Decorator, Facade, Composite, Bridge
-- Comportamiento: Observer, Strategy, Delegate, Command, State
+- Creacionales: Builder, Factory Method, Abstract Factory, Prototype, Singleton
+- Estructurales: Adapter, Decorator, Facade, Composite, Bridge, Proxy
+- Comportamiento: Strategy, Observer, Delegate, Command, State, Template Method, Chain of Responsibility, Mediator, Iterator, Visitor, Memento, Interpreter
 
 Orden recomendado de estudio
 
@@ -24,19 +24,20 @@ Orden recomendado de estudio
 6. Adapter
 7. Decorator
 8. Facade
-9. Strategy
-10. Observer
-11. Command
-12. State
-13. Template Method
-14. Proxy
-15. Composite
-16. Bridge
-17. Chain of Responsibility
-18. Mediator
-19. Iterator
-20. Visitor
-21. Memento
-22. Interpreter
+9. Composite
+10. Bridge
+11. Proxy
+12. Strategy
+13. Observer
+14. Delegate
+15. Command
+16. State
+17. Template Method
+18. Chain of Responsibility
+19. Mediator
+20. Iterator
+21. Visitor
+22. Memento
+23. Interpreter
 
 Cada patrón tiene su propia carpeta con un `README.md` y, cuando aplica, un playground de demostración.
