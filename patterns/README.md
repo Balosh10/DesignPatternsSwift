@@ -12,7 +12,7 @@ Patrones incluidos
 
 - Creacionales: Builder, Factory Method, Abstract Factory, Prototype, Singleton
 - Estructurales: Adapter, Decorator, Facade, Composite, Bridge, Proxy
-- Comportamiento: Strategy, Observer, Delegate, Command, State, Template Method, Chain of Responsibility, Mediator, Iterator, Visitor, Memento, Interpreter
+- Comportamiento: Delegate, Observer, Strategy, Command, State, Template Method, Chain of Responsibility, Iterator, Mediator, Visitor, Memento, Interpreter
 
 Orden recomendado de estudio
 
@@ -27,15 +27,15 @@ Orden recomendado de estudio
 9. Composite
 10. Bridge
 11. Proxy
-12. Strategy
+12. Delegate
 13. Observer
-14. Delegate
+14. Strategy 
 15. Command
 16. State
 17. Template Method
 18. Chain of Responsibility
-19. Mediator
-20. Iterator
+19. Iterator 
+20. Mediator
 21. Visitor
 22. Memento
 23. Interpreter
