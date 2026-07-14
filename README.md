@@ -1,52 +1,51 @@
 # 🧩 DesignPatternsSwift
 
-Proyecto educativo en Swift enfocado en la comprensión e implementación práctica de los patrones de diseño más utilizados en desarrollo iOS.
+Proyecto educativo en Swift para aprender y practicar los patrones de diseño más comunes en desarrollo iOS.
 
-El objetivo no es solo aprender la teoría, sino entender **cuándo, por qué y cómo aplicar cada patrón en proyectos reales**, siguiendo buenas prácticas de arquitectura en Swift.
-
----
-
-# 🎯 Objetivo del proyecto
-
-- Aprender patrones de diseño desde cero
-- Implementarlos en Swift con ejemplos prácticos
-- Entender casos de uso reales en desarrollo iOS
-- Mejorar el diseño de código y arquitectura
+El propósito de este repositorio no es solo mostrar teoría, sino ofrecer ejemplos claros, organizados y ejecutables con playgrounds para comprender cuándo y cómo aplicar cada patrón en proyectos reales.
 
 ---
 
-# 🧠 Categorías de patrones
+## 🎯 Objetivo del proyecto
 
-## 🟡 Creacionales (creación de objetos)
-Patrones que controlan cómo se crean los objetos.
+- Aprender patrones de diseño desde cero.
+- Implementarlos en Swift con ejemplos prácticos.
+- Entender casos de uso reales en desarrollo iOS.
+- Mejorar la estructuración y mantenibilidad del código.
 
-- Builder ✅ (implementado)
+---
+
+## 🧠 Estructura del repositorio
+
+Los ejemplos están organizados por categorías dentro de [patterns](patterns):
+
+- [patterns/Creacionales](patterns/Creacionales) para patrones de creación de objetos.
+- [patterns/Estructurales](patterns/Estructurales) para la composición y organización de clases.
+- [patterns/Comportamiento](patterns/Comportamiento) para la interacción entre objetos.
+
+---
+
+## 📦 Patrones incluidos
+
+### Creacionales
+- Builder
 - Factory Method
 - Abstract Factory
 - Prototype
 - Singleton
 
----
-
-## 🔵 Estructurales (organización del código)
-Patrones que definen cómo se estructuran los objetos y clases.
-
+### Estructurales
 - Adapter
 - Decorator
 - Facade
 - Composite
 - Bridge
 - Proxy
-- Template Method
 
----
-
-## 🟢 Comportamiento (interacción entre objetos)
-Patrones que definen cómo se comunican los objetos.
-
+### Comportamiento
 - Strategy
 - Observer
-- Delegate (muy usado en iOS)
+- Delegate
 - Command
 - State
 - Chain of Responsibility
@@ -55,61 +54,17 @@ Patrones que definen cómo se comunican los objetos.
 - Visitor
 - Memento
 - Interpreter
+- Template Method
 
 ---
 
-# 🧾 Teoría breve por categoría
+## 🚀 Cómo ejecutar los ejemplos
 
-- **Creacionales:** se centran en encapsular la lógica de creación de objetos para separar esa responsabilidad del resto del código. Ayudan a crear sistemas más flexibles y a soportar variaciones en la creación (por ejemplo, `Builder`, `Factory Method`, `Abstract Factory`, `Prototype`, `Singleton`).
+1. Abre el proyecto en Xcode 12 o superior.
+2. Dirígete a la carpeta del patrón que quieras revisar, por ejemplo [patterns/Creacionales/Builder/Builder.playground](patterns/Creacionales/Builder/Builder.playground).
+3. Ejecuta el playground para ver el ejemplo en acción.
 
-- **Estructurales:** se ocupan de cómo se componen clases y objetos para formar estructuras más grandes, facilitando la reutilización y la reducción de complejidad (por ejemplo, `Adapter`, `Facade`, `Decorator`, `Proxy`, `Composite`, `Bridge`).
-
-- **Comportamiento:** describen patrones de comunicación y responsabilidades entre objetos, definiendo algoritmos y flujos de control (por ejemplo, `Observer`, `Strategy`, `Command`, `State`, `Delegate`).
-
----
-
-# 🚀 Orden recomendado de aprendizaje
-
-Para este proyecto, una ruta de estudio muy sólida para desarrollo iOS profesional es la siguiente:
-
-## Creacionales
-1. Builder
-2. Factory Method
-3. Abstract Factory
-4. Prototype
-5. Singleton
-
-## Estructurales
-6. Adapter
-7. Decorator
-8. Facade
-9. Proxy
-10. Composite
-11. Bridge
-12. Template Method
-
-## Comportamiento
-13. Strategy
-14. Observer
-15. Command
-16. State
-17. Delegate
-18. Chain of Responsibility
-19. Mediator
-20. Iterator
-21. Visitor
-22. Memento
-23. Interpreter
-
-Esta ruta permite pasar de la creación de objetos a la arquitectura de componentes y al diseño de sistemas más mantenibles.
-
----
-
-# 🍔 Ejemplo implementado
-
-### Builder Pattern
-
-Ejemplo de construcción fluida de objetos:
+Ejemplo rápido:
 
 ```swift
 let hamburguesa = Hamburguesa.Builder()
@@ -122,41 +77,37 @@ let hamburguesa = Hamburguesa.Builder()
 
 ---
 
-**Contenido y uso**
+## 📚 Ruta recomendada de estudio
 
-- **Ejecutar:** abre el playground `Builder.playground` o `PD-Builder.playground` en Xcode (recomendado Xcode 12+ / Swift 5+).
-- **Estructura:** el código de los patrones se organiza bajo la carpeta `patterns/`.
+1. Builder
+2. Factory Method
+3. Abstract Factory
+4. Prototype
+5. Singleton
+6. Adapter
+7. Decorator
+8. Facade
+9. Proxy
+10. Composite
+11. Bridge
+12. Strategy
+13. Observer
+14. Command
+15. State
+16. Delegate
+17. Chain of Responsibility
+18. Mediator
+19. Iterator
+20. Visitor
+21. Memento
+22. Interpreter
+23. Template Method
 
----
-
-# 📚 Tabla de contenidos
-
-- [🎯 Objetivo del proyecto](#-objetivo-del-proyecto)
-- [🧠 Categorías de patrones](#-categorías-de-patrones)
-- [🚀 Orden recomendado de aprendizaje](#-orden-recomendado-de-aprendizaje)
-- [🍔 Ejemplo implementado](#-ejemplo-implementado)
-- [📦 Patrones implementados](#-patrones-implementados)
-- [⚙️ Cómo ejecutar](#️-cómo-ejecutar)
-- [🤝 Contribuir](#-contribuir)
-
----
-
-# 📦 Patrones implementados
-
-- Creacionales:
-    - Builder — ejemplo y playground en [Builder.playground](Builder.playground)
-
----
-
-# ⚙️ Cómo ejecutar
-
-1. Abre el proyecto en Xcode.
-2. Para ver el ejemplo `Builder`, abre [Builder.playground](Builder.playground) o el playground `PD-Builder.playground`.
-3. Recomendado: Xcode 12 o superior, Swift 5.
+Esta ruta permite pasar de la creación de objetos a la organización del código y finalmente a la interacción entre componentes.
 
 ---
 
-# 🤝 Contribuir
+## 🤝 Contribuir
 
-Gracias por tu interés en contribuir. Crea un fork, añade tu implementación bajo `patterns/` y abre un Pull Request describiendo el patrón y el archivo principal que añadiste. Lee [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles.
+Si quieres colaborar, crea un fork del repositorio, añade tu ejemplo bajo [patterns](patterns) y abre un pull request describiendo el patrón y el objetivo del cambio. Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles.
 
